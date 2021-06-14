@@ -40,7 +40,7 @@ func main() {
 		defer f.Close()
 	}
 
-	// read the lines, append and output them if they're new
+	// read1 the lines, append and output them if they're new
 	sc := bufio.NewScanner(os.Stdin)
 
 	for sc.Scan() {
